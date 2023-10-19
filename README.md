@@ -26,14 +26,12 @@ Aggregation is a list that takes in point, line, circle ONLY.
 You may add as many points, line, circle variable. Do not forget to add variables into the Aggregation list if you want the move and rotate to be applied.
 > (for e.g.: aggregation = Aggregation([point, point1, line, line1, line2, circle, circle1]))  
   
-  
+
 **MOVE**:  
 You may alter the x-axis and y-axis for aggregation for it to move.
 aggregation.move(x, y)  
   
 **ROTATE**:  
 You may ONLY alter "X" in the rotate function.
-aggregation.rotate(X, pivot)
-
-
-
+aggregation.rotate(X, pivot)  
+  
