@@ -10,7 +10,7 @@ There is an additional figure named Aggregation and it may contain random number
 When Aggregation rotates all its figures rotate the same way. Write down the Aggregation implementation including the class 
 definition and all methods.  
 
-## Use Case:  
+## HOW TO:  
 
 You may alter the points x-axis and y-axis to your preference.  
 
