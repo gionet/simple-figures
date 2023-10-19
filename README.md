@@ -16,10 +16,10 @@ You may alter the points x-axis and y-axis to your preference.
 
 ![Alt text](image.png)  
 
-pivot : center of rotation (if not at origin (0, 0))  
-point : a single point in geometry grid (x, y)  
-line : a line consist of 2 points - (x, y) to (x, y)  
-circle : circle has a single point with a radius _(though radius will not change in this case)_  
+- pivot : center of rotation (if not at origin (0, 0))  
+- point : a single point in geometry grid (x, y)  
+- line : a line consist of 2 points - (x, y) to (x, y)  
+- circle : circle has a single point with a radius _(though radius will not change in this case)_  
 
 
 Aggregation is a list that takes in point, line, circle ONLY.  
@@ -35,3 +35,12 @@ aggregation.move(x, y)
 You may ONLY alter "X" in the rotate function.
 aggregation.rotate(X, pivot)  
   
+Example: -  
+    
+Expected output:  
+  
+![Alt text](image-1.png)
+  
+Noticed how rotate is modified to 0, move x-axis by 5 and y-axis by 5. All the points are shifted according to aggregation.
+
+**_You may further verify the movement of pivot and rotation with external sources._**

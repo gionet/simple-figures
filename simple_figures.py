@@ -71,17 +71,17 @@ class Aggregation:
 
 # Modify variables (origin, point, line, circle)
 pivot = (2, 1)
-point = Point(-3, 5)
+point = Point(3, 5)
 line = Line(Point(-3, 5), Point(-1, 3))
 circle = Circle(Point(7, 8), 9)
 
 aggregation = Aggregation([point, line, circle])
 
 # Move aggrgation
-aggregation.move(0, 0)
+aggregation.move(5, 5)
 
 # Rotate all figures by "X" degrees.
-aggregation.rotate(90, pivot)
+aggregation.rotate(0, pivot)
 
 # Print the new positions of all figures.
 print(point)
