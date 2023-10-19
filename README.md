@@ -19,13 +19,14 @@ You may alter the points x-axis and y-axis to your preference.
 pivot : center of rotation (if not at origin (0, 0))  
 point : a single point in geometry grid (x, y)  
 line : a line consist of 2 points - (x, y) to (x, y)  
-circle : circle has a single point with a radius _(though radius will not change in this case)_
-  
-  
-Aggregation is a list that takes in point, line, circle ONLY.  
-You may add as many points, line, circle variable. Do not forget to add variables into the Aggregation list if you want the move and rotate to be applied.  
-  
+circle : circle has a single point with a radius _(though radius will not change in this case)_  
 
+
+Aggregation is a list that takes in point, line, circle ONLY.  
+You may add as many points, line, circle variable. Do not forget to add variables into the Aggregation list if you want the move and rotate to be applied.
+> (for e.g.: aggregation = Aggregation([point, point1, line, line1, line2, circle, circle1]))  
+  
+  
 **MOVE**:  
 You may alter the x-axis and y-axis for aggregation for it to move.
 aggregation.move(x, y)  
